@@ -20,3 +20,9 @@ console.log(typeof(user));//Prints Object
 let usr;
 console.log(usr)
 console.log(typeof(usr));//Prints Undefinied
+
+//Numbers 
+let num = 5;
+console.log(num/"Hello");//Prints NaN
+console.log(typeof(num/"Hello"));//Prints number 
+
