@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //String
 let firstName  = "Supriya";
 let lastName = "Radhakrishnan";
@@ -26,34 +25,3 @@ console.log(typeof(usr));//Prints Undefinied
 let num = 5;
 console.log(num/"Hello");//Prints NaN
 console.log(typeof(num/"Hello"));//Prints number 
-
-=======
-//String
-let firstName  = "Supriya";
-let lastName = "Radhakrishnan";
-let message = "'Hello'"
-console.log(message + " " +firstName +" " + lastName);
-let welcome  = "\"Welcome\""; //Escpe Character  - \n(new line) \t(tab) \v(vertical tab) \b(backspace)
-console.log(welcome);
-
-//Boolean
-let bool = (5<6);
-console.log(bool);
-console.log(typeof(bool));
-
-//Null
-let user = null;
-console.log(user);//Prints null
-console.log(typeof(user));//Prints Object
-
-//Undefinied
-let usr;
-console.log(usr)
-console.log(typeof(usr));//Prints Undefinied
-
-//Numbers 
-let num = 5;
-console.log(num/"Hello");//Prints NaN
-console.log(typeof(num/"Hello"));//Prints number 
-
->>>>>>> d2123cdef939d2bea5aa3dc1bc310e1c7b4ff008
